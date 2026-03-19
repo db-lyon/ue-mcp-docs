@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -403,6 +403,33 @@
     
   
     Neon Shrine Demo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../feedback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feedback
   
 
     
@@ -966,38 +993,40 @@
 <a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>├── deployer.ts           # Plugin deployment
 <a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>├── editor-control.ts     # Editor process management
 <a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>├── instructions.ts       # AI-facing server instructions
-<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>└── tools/                # 18 tool category implementations
-<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>    ├── project.ts
-<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>    ├── asset.ts
-<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>    ├── blueprint.ts
-<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>    ├── level.ts
-<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>    ├── material.ts
-<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>    ├── animation.ts
-<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>    ├── landscape.ts
-<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>    ├── pcg.ts
-<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>    ├── foliage.ts
-<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>    ├── niagara.ts
-<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>    ├── audio.ts
-<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>    ├── widget.ts
-<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>    ├── editor.ts
-<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a>    ├── reflection.ts
-<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a>    ├── gameplay.ts
-<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a>    ├── gas.ts
-<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a>    ├── networking.ts
-<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a>    └── demo.ts
-<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a>
-<a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a>plugin/ue_mcp_bridge/     # C++ bridge plugin (deployed to UE projects)
-<a id="__codelineno-3-30" name="__codelineno-3-30" href="#__codelineno-3-30"></a>└── Source/UE_MCP_Bridge/
-<a id="__codelineno-3-31" name="__codelineno-3-31" href="#__codelineno-3-31"></a>    ├── UE_MCP_Bridge.Build.cs
-<a id="__codelineno-3-32" name="__codelineno-3-32" href="#__codelineno-3-32"></a>    └── Private/
-<a id="__codelineno-3-33" name="__codelineno-3-33" href="#__codelineno-3-33"></a>        ├── BridgeServer.cpp/.h
-<a id="__codelineno-3-34" name="__codelineno-3-34" href="#__codelineno-3-34"></a>        ├── HandlerRegistry.cpp/.h
-<a id="__codelineno-3-35" name="__codelineno-3-35" href="#__codelineno-3-35"></a>        ├── GameThreadExecutor.cpp/.h
-<a id="__codelineno-3-36" name="__codelineno-3-36" href="#__codelineno-3-36"></a>        └── Handlers/          # 21 C++ handler groups
-<a id="__codelineno-3-37" name="__codelineno-3-37" href="#__codelineno-3-37"></a>
-<a id="__codelineno-3-38" name="__codelineno-3-38" href="#__codelineno-3-38"></a>tests/smoke/               # Smoke tests (require live editor)
-<a id="__codelineno-3-39" name="__codelineno-3-39" href="#__codelineno-3-39"></a>scripts/                   # Build and run scripts
-<a id="__codelineno-3-40" name="__codelineno-3-40" href="#__codelineno-3-40"></a>.kantext/                  # Kantext ontology
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>├── github-app.ts         # GitHub App auth for feedback submission
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>└── tools/                # 19 tool category implementations
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>    ├── project.ts
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>    ├── asset.ts
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>    ├── blueprint.ts
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>    ├── level.ts
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>    ├── material.ts
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>    ├── animation.ts
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>    ├── landscape.ts
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>    ├── pcg.ts
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>    ├── foliage.ts
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>    ├── niagara.ts
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>    ├── audio.ts
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>    ├── widget.ts
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a>    ├── editor.ts
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a>    ├── reflection.ts
+<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a>    ├── gameplay.ts
+<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a>    ├── gas.ts
+<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a>    ├── networking.ts
+<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a>    ├── demo.ts
+<a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a>    └── feedback.ts
+<a id="__codelineno-3-30" name="__codelineno-3-30" href="#__codelineno-3-30"></a>
+<a id="__codelineno-3-31" name="__codelineno-3-31" href="#__codelineno-3-31"></a>plugin/ue_mcp_bridge/     # C++ bridge plugin (deployed to UE projects)
+<a id="__codelineno-3-32" name="__codelineno-3-32" href="#__codelineno-3-32"></a>└── Source/UE_MCP_Bridge/
+<a id="__codelineno-3-33" name="__codelineno-3-33" href="#__codelineno-3-33"></a>    ├── UE_MCP_Bridge.Build.cs
+<a id="__codelineno-3-34" name="__codelineno-3-34" href="#__codelineno-3-34"></a>    └── Private/
+<a id="__codelineno-3-35" name="__codelineno-3-35" href="#__codelineno-3-35"></a>        ├── BridgeServer.cpp/.h
+<a id="__codelineno-3-36" name="__codelineno-3-36" href="#__codelineno-3-36"></a>        ├── HandlerRegistry.cpp/.h
+<a id="__codelineno-3-37" name="__codelineno-3-37" href="#__codelineno-3-37"></a>        ├── GameThreadExecutor.cpp/.h
+<a id="__codelineno-3-38" name="__codelineno-3-38" href="#__codelineno-3-38"></a>        └── Handlers/          # 21 C++ handler groups
+<a id="__codelineno-3-39" name="__codelineno-3-39" href="#__codelineno-3-39"></a>
+<a id="__codelineno-3-40" name="__codelineno-3-40" href="#__codelineno-3-40"></a>tests/smoke/               # Smoke tests (require live editor)
+<a id="__codelineno-3-41" name="__codelineno-3-41" href="#__codelineno-3-41"></a>scripts/                   # Build and run scripts
+<a id="__codelineno-3-42" name="__codelineno-3-42" href="#__codelineno-3-42"></a>docs/                      # Documentation (MkDocs Material)
 </code></pre></div>
 <h2 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">&para;</a></h2>
 <h3 id="smoke-tests">Smoke Tests<a class="headerlink" href="#smoke-tests" title="Permanent link">&para;</a></h3>
@@ -1110,7 +1139,7 @@
 <a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">  </span><span class="p">{</span>
 <a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">    </span><span class="nx">my_action</span><span class="o">:</span><span class="w"> </span><span class="kt">bp</span><span class="p">(</span><span class="s1">&#39;my_cpp_handler_method&#39;</span><span class="p">),</span>
 <a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">    </span><span class="nx">local_action</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="w">      </span><span class="nx">handler</span><span class="o">:</span><span class="w"> </span><span class="kt">async</span><span class="w"> </span><span class="p">(</span><span class="nx">params</span><span class="p">,</span><span class="w"> </span><span class="nx">ctx</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="w">      </span><span class="nx">handler</span><span class="o">:</span><span class="w"> </span><span class="kt">async</span><span class="w"> </span><span class="p">(</span><span class="nx">ctx</span><span class="p">,</span><span class="w"> </span><span class="nx">params</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="w">        </span><span class="c1">// local implementation</span>
 <a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">result</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;done&#39;</span><span class="w"> </span><span class="p">};</span>
 <a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="w">      </span><span class="p">},</span>

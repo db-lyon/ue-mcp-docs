@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -604,6 +604,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../feedback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feedback
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../troubleshooting/" class="md-nav__link">
         
   
@@ -839,7 +866,7 @@
     MCP --&gt;|direct filesystem| FS[Config INI&lt;br/&gt;C++ Headers&lt;br/&gt;Asset Directories]</code></pre>
 <h2 id="mcp-server-typescript">MCP Server (TypeScript)<a class="headerlink" href="#mcp-server-typescript" title="Permanent link">&para;</a></h2>
 <p><strong>Entry point:</strong> <code>src/index.ts</code></p>
-<p>The server creates an <code>McpServer</code> instance (from <code>@modelcontextprotocol/sdk</code>), registers 18 category tools, and communicates with the AI client over stdio.</p>
+<p>The server creates an <code>McpServer</code> instance (from <code>@modelcontextprotocol/sdk</code>), registers 19 category tools, and communicates with the AI client over stdio.</p>
 <h3 id="key-modules">Key Modules<a class="headerlink" href="#key-modules" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -876,6 +903,10 @@
 <tr>
 <td><code>types.ts</code></td>
 <td><code>ToolDef</code>, <code>ActionSpec</code>, <code>categoryTool()</code> factory</td>
+</tr>
+<tr>
+<td><code>github-app.ts</code></td>
+<td>GitHub App auth for agent feedback issue submission</td>
 </tr>
 </tbody>
 </table>

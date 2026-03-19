@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -600,6 +600,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#feedback-agent-feedback-submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        feedback — Agent Feedback Submission
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -650,6 +661,33 @@
     
   
     Neon Shrine Demo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../feedback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feedback
   
 
     
@@ -940,6 +978,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#feedback-agent-feedback-submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        feedback — Agent Feedback Submission
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -961,7 +1010,7 @@
 
 
 <h1 id="tool-reference">Tool Reference<a class="headerlink" href="#tool-reference" title="Permanent link">&para;</a></h1>
-<p>UE-MCP exposes <strong>18 category tools</strong> covering <strong>260+ actions</strong>. Every tool takes an <code>action</code> parameter that selects the operation, plus action-specific parameters.</p>
+<p>UE-MCP exposes <strong>19 category tools</strong> covering <strong>300+ actions</strong>. Every tool takes an <code>action</code> parameter that selects the operation, plus action-specific parameters.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Start with <code>project(action="get_status")</code> to check the connection, then <code>level(action="get_outliner")</code> or <code>asset(action="list")</code> to explore.</p>
@@ -2470,6 +2519,25 @@
 </tbody>
 </table>
 <p>See <strong><a href="../neon-shrine-demo/">Neon Shrine Demo</a></strong> for a full walkthrough.</p>
+<hr />
+<h2 id="feedback-agent-feedback-submission">feedback — Agent Feedback Submission<a class="headerlink" href="#feedback-agent-feedback-submission" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Description</th>
+<th>Key Params</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>submit</code></td>
+<td>Submit feedback about a tool gap</td>
+<td><code>title</code>, <code>summary</code>, <code>pythonWorkaround?</code>, <code>idealTool?</code></td>
+</tr>
+</tbody>
+</table>
+<p>See <strong><a href="../feedback/">Feedback</a></strong> for details on how the feedback system works.</p>
 
 
 
