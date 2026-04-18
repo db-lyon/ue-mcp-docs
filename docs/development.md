@@ -49,7 +49,7 @@ src/
 ├── deployer.ts           # Plugin deployment
 ├── editor-control.ts     # Editor process management
 ├── instructions.ts       # AI-facing server instructions
-└── tools/                # 18 tool category implementations
+└── tools/                # 19 tool category implementations
     ├── project.ts
     ├── asset.ts
     ├── blueprint.ts
